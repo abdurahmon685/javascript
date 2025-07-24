@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ism ko‘rsatish</title>
+  <style>
+    body {
+      background-color: blue;
+      color: yellow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-size: 60px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const ism = prompt("Ismingizni kiriting:");
+    if (ism) {
+      document.body.textContent = ism;
+    } else {
+      document.body.textContent = "Ism kiritilmadi!";
+    }
+  </script>
+</body>
+</html>
